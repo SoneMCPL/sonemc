@@ -301,7 +301,8 @@ hr {
   color: #e91e63;
 }
 .fa-moon{
-  color: #333 ;
+  color: #333;
+  transition: color 0.3s ease;
 }
 .fa-moon:hover{
   color: #e91e63;
