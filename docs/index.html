@@ -49,6 +49,7 @@
       <nav>
         <ul class="nav-links">
           <li><a href="#valentines">Valentines</a></li>
+          <li><a href="#harvesting">Harvesting</a></li>
 
         </ul>
       </nav>
@@ -229,82 +230,82 @@
           <div class="tooltip">Copied!</div>
         </div>
         <pre>
-          lang: "EN"
+lang: "EN"
 
-          # Messages
-          Prefix: "&c❤&f&lValentines&c❤&r "
-          NoPermissionMessage: "&cYou do not have permission to use this command."
-          
-          Hug: "&fYou hugged &d{player} ❤"
-          HugReceived: "&d{player} &fhugged you&d! ❤"
-          Kiss: "&fYou kissed &d{player} ❤"
-          KissReceived: "&d{player} &fkissed you&d! ❤"
-          
-          Marriage:
-            proposal-sent: "&fMarriage proposal sent to &d{player}"
-            proposal-received: "&d{player} &fwants to marry you. Type &d/marry confirm &ffor confirmation."
-          
-            already-married: "&cYou are already married!"
-            target-already-married: "&c{player} is already married!"
-          
-            no-pending-proposals: "&cYou have no pending marriage proposals!"
-            proposer-offline: "&cThe player who proposed is no longer online!"
-          
-            accept-sender: "&d{player} &faccepted your marriage. You're together&d! ♥"
-            accept-receiver: "You married &d{player} &fYou're together&d! ♥"
-            decline-sender: "&c{player} doesn't want to be with you :("
-            decline-receiver: "&cYou don't want to be with {player}"
-          
-            divorce-initiator: "&cYou have divorced {player}!"
-            divorce-target: "&c{player} has divorced you!"
-            divorce-confirm: "&fAre you sure you want to break up with &d{player}&f? Type &d/divorce &fagain to confirm."
-          
-            not-married: "&cYou are not married!"
-            not-married-to: "&cYou are not married to {player}!"
-          
-            # Marriage prefix settings
-            prefix:
-              enabled: true
-              position: "after"  # symbol "after" or "before" player's name
-              symbol: "❤"
-              color: "&c"
-              tooltip: "&dMarried to &f{partner}"
-              spacing: " "  # Space between name and symbol
-          
-          reload-success: "&aConfiguration and languages reloaded successfully!"
-          reload-error: "&cError reloading configuration: {error}"
-          
-          cooldown-message: "&cYou can only {command} once every &d{time}&c seconds!"
-          
-          # Chat Replacement
-          symbol-change: true
-          symbol-color: "&c"
-          symbol: "♥"
-          words:
-            - "love"
-            - "valentines"
-            - "heart"
-          
-          # Effects
-          effect:
-            enabled: true
-            particle-density: 1
-            update-rate: 2
-            max-height: 2.0
-            start-height: 0.1
-            radius: 0.85
-          
-          enabled-worlds:
-            - world
-            - world_nether
-          
-          # Cooldowns (seconds)
-          cooldowns:
-            hug: 60
-            kiss: 60
-          
-          # Thank you for using Valentines plugin by SoneMC. If you have any more questions, please
-          # visit https://sonemc.pages.dev
+# Messages
+Prefix: "&c❤&f&lValentines&c❤&r "
+NoPermissionMessage: "&cYou do not have permission to use this command."
+
+Hug: "&fYou hugged &d{player} ❤"
+HugReceived: "&d{player} &fhugged you&d! ❤"
+Kiss: "&fYou kissed &d{player} ❤"
+KissReceived: "&d{player} &fkissed you&d! ❤"
+
+Marriage:
+  proposal-sent: "&fMarriage proposal sent to &d{player}"
+  proposal-received: "&d{player} &fwants to marry you. Type &d/marry confirm &ffor confirmation."
+
+  already-married: "&cYou are already married!"
+  target-already-married: "&c{player} is already married!"
+
+  no-pending-proposals: "&cYou have no pending marriage proposals!"
+  proposer-offline: "&cThe player who proposed is no longer online!"
+
+  accept-sender: "&d{player} &faccepted your marriage. You're together&d! ♥"
+  accept-receiver: "You married &d{player} &fYou're together&d! ♥"
+  decline-sender: "&c{player} doesn't want to be with you :("
+  decline-receiver: "&cYou don't want to be with {player}"
+
+  divorce-initiator: "&cYou have divorced {player}!"
+  divorce-target: "&c{player} has divorced you!"
+  divorce-confirm: "&fAre you sure you want to break up with &d{player}&f? Type &d/divorce &fagain to confirm."
+
+  not-married: "&cYou are not married!"
+  not-married-to: "&cYou are not married to {player}!"
+
+  # Marriage prefix settings
+  prefix:
+    enabled: true
+    position: "after"  # symbol "after" or "before" player's name
+    symbol: "❤"
+    color: "&c"
+    tooltip: "&dMarried to &f{partner}"
+    spacing: " "  # Space between name and symbol
+
+reload-success: "&aConfiguration and languages reloaded successfully!"
+reload-error: "&cError reloading configuration: {error}"
+
+cooldown-message: "&cYou can only {command} once every &d{time}&c seconds!"
+
+# Chat Replacement
+symbol-change: true
+symbol-color: "&c"
+symbol: "♥"
+words:
+  - "love"
+  - "valentines"
+  - "heart"
+
+# Effects
+effect:
+  enabled: true
+  particle-density: 1
+  update-rate: 2
+  max-height: 2.0
+  start-height: 0.1
+  radius: 0.85
+
+enabled-worlds:
+  - world
+  - world_nether
+
+# Cooldowns (seconds)
+cooldowns:
+  hug: 60
+  kiss: 60
+
+# Thank you for using Valentines plugin by SoneMC. If you have any more questions, please
+# visit https://sonemc.pages.dev
 </pre>
       </div>
 
@@ -332,8 +333,65 @@
 <hr class="separator">
 
 <!-- End  -->
+
+
+
+
+<section id="valentines" class="plugin-details">
+  <div class="container">
+    <h2>Harvested - 1.0</h2>
+    <p class="plugin-version">
+      Developed: <strong>1.20.2</strong> <br>
+      Tested: <strong>1.20, 1.21</strong>
+    </p>
+
+    <p class="small-text">Placing seeds and breaking them by radius</p>
+    <div class="plugin-features">
+      <h3>Features:</h3>
+      <ul>
+        <li>Shift + Right-Click with seeds in hand to automatically plant in a 5x5 area around you (configurable radius)</li>
+        <li>Change the planting range in config</li>
+        <li>Breaking a mature crop (like potatoes)? All nearby grown crops of the same type will break too</li>
+        <li>Harvested crops are instantly added to your inventory</li>
+      </ul>
+    </div>
+
+    <!-- config.yml -->
+    <div class="plugin-config">
+      <h3>config.yml:</h3>
+      <div class="copy-container">
+        <button class="copy-btn" onclick="copyToClipboard()" aria-label="Copy to clipboard">
+          <i class="fas fa-copy"></i>
+        </button>
+        <div class="tooltip">Copied!</div>
+      </div>
+      <pre>
+radius: 5
+direct-inventory: true      
+</pre>
+    </div>
+
+    <!-- Downloads -->
+    <div class="plugin-downloads">
+      <h3>Downloads:</h3>
+      <div class="download-buttons">
+        <a href="https://www.spigotmc.org/resources/harvesting.124268/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
+          <i class="fas fa-cubes"></i>
+        </a>
+        <a href="https://github.com/SoneMCPL/Harvesting/releases/download/1.0/Harvesting_1.0_1.20-1.21.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+</div>
+</section>
   
 
+<!-- End  -->
+
+<hr class="separator">
+
+<!-- End  -->
 
 
 <section class="plugin-details">
@@ -347,38 +405,38 @@
 
 
 
-   <!-- End  -->
+<!-- End  -->
 
-   <hr class="separator">
+<hr class="separator">
 
-   <!-- End  -->
+<!-- End  -->
 
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <div class="footer-info">
-        <h3>SoneMC</h3>
-        <p>Minecraft Plugin Development</p>
-      </div>
-      <hr>
-      <div class="footer-links">
-        <a href="https://discord.gg/DxpqN5WXRt" target="_blank"><i class="fab fa-discord"></i></a>
-        <a href="https://github.com/sonemcpl" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.spigotmc.org/members/sonemc.2226356/" target="_blank"><i class="fas fa-cubes"></i></a>
-        <button id="darkModeToggle" class="toggle-mode"><i class="fas fa-moon"></i></button>
-      </div>
-      <hr>
-      <div class="footer-copy">
-        <p>&copy; 2025 SoneMC - All rights reserved | Last update: April 20, 2025</p>
-      </div>
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>SoneMC</h3>
+      <p>Minecraft Plugin Development</p>
     </div>
-  </footer>
+    <hr>
+    <div class="footer-links">
+      <a href="https://discord.gg/DxpqN5WXRt" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://github.com/sonemcpl" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.spigotmc.org/members/sonemc.2226356/" target="_blank"><i class="fas fa-cubes"></i></a>
+      <button id="darkModeToggle" class="toggle-mode"><i class="fas fa-moon"></i></button>
+    </div>
+    <hr>
+    <div class="footer-copy">
+      <p>&copy; 2025 SoneMC - All rights reserved | Last update: April 20, 2025</p>
+    </div>
+  </div>
+</footer>
 
   <button id="backToTop"><i class="fas fa-chevron-up"></i></button>
 
   <script src="../script/backtotop.js"></script>
   <script src="../script/dark.js"></script>
   <script src="../script/copy.js"></script>
-</body>
+</body> 
 </html>
