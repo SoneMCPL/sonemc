@@ -282,12 +282,14 @@ hr {
 }
 .separator {
   border: none;
-  height: 2px;
-  background: linear-gradient(to right, transparent, #c2185c, transparent);
-  margin: auto; 
+  height: 1.7px;
+  background-image: url("https://github.com/SoneMCPL/Images/raw/main/separator.png");
+  background-size: 100% auto;
+  background-position: center;
+  margin: auto;
   margin-top: -15px;
   margin-bottom: 15px;
-  width: 80%; 
+  width: 80%;
 }
 .toggle-mode {
   background: transparent;
@@ -363,6 +365,15 @@ hr {
   transition: transform 0.3s ease;
 }
 
-.media-gif:hover {
+.media-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.media-gif:hover,
+.media-img:hover {
   transform: scale(1.03);
 }
