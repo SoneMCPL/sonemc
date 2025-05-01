@@ -197,6 +197,11 @@
     color: white;
 }
 
+.tag-experimental {
+    background-color: #2196F3;
+    color: white;
+}
+
 .tag-ended {
     background-color: #F44336;
     color: white;
