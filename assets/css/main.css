@@ -187,6 +187,8 @@
     color: var(--dark);
 }
 
+/* Tags */
+
 .tag-stable {
     background-color: #4CAF50;
     color: white;
@@ -207,10 +209,12 @@
     color: white;
 }
 
-.tag-unactive {
+.tag-inactive {
     background-color: #9E9E9E;
     color: white;
 }
+
+/* Tags */
 
 .project-body {
     padding: var(--spacing-md);
