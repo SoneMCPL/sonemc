@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoneMC - Valentines Documentation</title>
+    <title>SoneMC - MobStatus Documentation</title>
 
     <!-- SEO -->
     <meta name="keywords" content="Minecraft Plugins, SoneMC, Spigot, Paper, Plugin Development, Minecraft 1.20+, Minecraft Servers, Plugins, Mc">
@@ -78,7 +78,7 @@
                     <h3>Plugins</h3>
                     <ul>
                         <li>
-                            <a href="plugins/valentines2/index.html">Valentines 2</a>
+                            <a href="../valentines2/index.html">Valentines 2</a>
                             <ul class="sidebar-submenu">
                                 <li><a href="../valentines2/index.html#home">Home</a></li>
                                 <li><a href="../valentines2/index.html#features">Features</a></li>
@@ -90,21 +90,21 @@
                         <li>
                             <a href="../mobstatus/index.html">MobStatus</a>
                             <ul class="sidebar-submenu">
-                                <li><a href="../mobstatus/index.html#home">Home</a></li>
-                                <li><a href="../mobstatus/index.html#features">Features</a></li>
-                                <li><a href="../mobstatus/index.html#commands">Commands</a></li>
-                                <li><a href="../mobstatus/index.html#permissions">Permissions</a></li>
-                                <li><a href="../mobstatus/index.html#config">Configuration</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="../valentines/index.html">Valentines</a>
-                            <ul class="sidebar-submenu">
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#features">Features</a></li>
                                 <li><a href="#commands">Commands</a></li>
                                 <li><a href="#permissions">Permissions</a></li>
                                 <li><a href="#config">Configuration</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../valentines/index.html">Valentines</a>
+                            <ul class="sidebar-submenu">
+                                <li><a href="../valentines/index.html#home">Home</a></li>
+                                <li><a href="../valentines/index.html#features">Features</a></li>
+                                <li><a href="../valentines/index.html#commands">Commands</a></li>
+                                <li><a href="../valentines/index.html#permissions">Permissions</a></li>
+                                <li><a href="../valentines/index.html#config">Configuration</a></li>
                             </ul>
                         </li>
                         <li>
@@ -128,38 +128,38 @@
 
         <main class="docs-content" id="home">
             <div class="plugin-header">
-                <div class="plugin-header-icon" style="background: linear-gradient(135deg, #673AB7, #9C27B0);">
-                    <i class="fas fa-heart"></i>
+                <div class="plugin-header-icon" style="background: linear-gradient(135deg, #E0E0E0, #B0B0B0);">
+                    <i class="fa-solid fa-skull-crossbones"></i>
                 </div>
                 <div class="plugin-header-info">
-                    <h1>Valentines</h1>
+                    <h1>MobStatus</h1>
                     <div class="plugin-header-meta">
                         <div class="plugin-header-meta-item">
                             <i class="fas fa-code-branch"></i>
-                            <span>Version: 1.4E</span>
+                            <span>Version: 1.0-Experimental</span>
                         </div>
                         <div class="plugin-header-meta-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>Status: Stable</span>
+                            <span>Status: Experimental</span>
                         </div>
                         <div class="plugin-header-meta-item">
                             <i class="fas fa-cube"></i>
-                            <span>Tested on: 1.16.x - 1.21.x</span>
+                            <span>Tested on: 1.20.x - 1.21.x</span>
                         </div>
                         <div class="plugin-header-meta-item">
                             <i class="fas fa-calendar-alt"></i>
-                            <span>Last updated: April 22, 2025</span>
+                            <span>Last updated: May 3, 2025</span>
                         </div>
                     </div>
-                    <p>This plugin let you spread love on your server. Using marriages, leaderboards and even hugs or kisses.</p>
+                    <p>Advanced RPG-style health bars, damage indicators, and effects for mobs</p>
                     <div class="plugin-download">
-                        <a href="https://github.com/SoneMCPL/Valentines/releases/download/1.4/Valentines_1.4.jar" class="btn btn-primary">
+                        <a href="https://www.spigotmc.org/resources/mobstatus.124676/download?version=587759" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Latest
                         </a>
-                        <a href="https://github.com/SoneMCPL/Valentines/releases" class="btn btn-outline" style="color: var(--dark); border-color: var(--dark);">
+                        <a href="https://github.com/SoneMCPL/MobStatus/releases" class="btn btn-outline" style="color: var(--dark); border-color: var(--dark);">
                             <i class="fab fa-github"></i> View on GitHub
                         </a>
-                        <a href="https://www.spigotmc.org/resources/valentines.122853/" class="btn btn-outline" style="color: var(--dark); border-color: var(--dark);">
+                        <a href="https://www.spigotmc.org/resources/mobstatus.124676/" class="btn btn-outline" style="color: var(--dark); border-color: var(--dark);">
                             <i class="fa fa-cubes"></i> View on SpigotMC
                         </a>
                     </div>
@@ -169,19 +169,17 @@
             <section class="docs-section" id="features">
                 <h2>Features</h2>
                 <ul>
-                    <li><strong>Marriages</strong> - Allows players to marry or divorce with someone</li>
-                    <li><strong>Kisses/Hugs</strong> - If you like someone you can always make them more happier with hug or kiss</li>
-                    <li><strong>Leaderboard</strong> - Get into Leaderboard and be first with the most hugs/kisses</li>
-                    <li><strong>Effects</strong> - Three special heart-like effects around player</li>
-                    <li><strong>Customizable</strong> - Change everything from messages to effects to how you like it</li>
-                    <li><strong>Multi-Language</strong> - Allows admins to change language from English to (defaultly): DE, IT, RU</li>
-                    <li><strong>Chat Formatting</strong> - Able to automatically change custom words into custom symbols</li>
+                    <li><strong>Effects</strong> - Shows particles for critical hits, normal damage, enchanted golden apple effects, and more</li>
+                    <li><strong>HealthBar</strong> - Displays mob health above their heads using 3 style types (standard, gradient, segmented)</li>
+                    <li><strong>GUI</strong> - Displays informations about killed mobs</li>
+                    <li><strong>Tiers</strong> - Every mob is categorized from Common to Legendary based on strength and rarity</li>
+                    <li><strong>More</strong> - Change loots, effects, tiers, and more via config.yml</li>
                 </ul>
             </section>
             
             <section class="docs-section" id="commands">
                 <h2>Commands</h2>
-                <p>Valentines provides a lots of commands to help it make it even (should I say "cuter"?):</p>
+                <p>MobStatus uses only 3 commands.</p>
                 
                 <h3>All commands used in plugin:</h3>
                 <table class="docs-table command-table">
@@ -195,58 +193,22 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>/valentines</td>
+                            <td>/mobstatus status</td>
                             <th>-</th>
-                            <td>Displays help command</td>
-                            <td>valentines.use</td>
+                            <td>Opens GUI</td>
+                            <td>mobstatus.stats</td>
                         </tr>
                         <tr>
-                            <td>/valentinesplayer (player)</td>
-                            <th>/vstats</th>
-                            <td>Displays player's stats</td>
-                            <td>valentines.use</td>
-                        </tr>
-                        <tr>
-                            <td>/valentinesleaderboard</td>
-                            <th>/vlb</th>
-                            <td>Displays leaderboard</td>
-                            <td>valentines.use</td>
-                        </tr>
-                        <tr>
-                            <td>/couples</td>
+                            <td>/mobstatus reload</td>
                             <th>-</th>
-                            <td>Displays all married players</td>
-                            <td>valentines.use</td>
+                            <td>Reloads plugin</td>
+                            <td>mobstatus.admin</td>
                         </tr>
                         <tr>
-                            <td>/hug (player)</td>
+                            <td>/mobstatus help</td>
                             <th>-</th>
-                            <td>Hugs player</td>
-                            <td>valentines.use</td>
-                        </tr>
-                        <tr>
-                            <td>/kiss (player)</td>
-                            <th>-</th>
-                            <td>Kisses player</td>
-                            <td>valentines.use</td>
-                        </tr>
-                        <tr>
-                            <td>/marry (player)</td>
-                            <th>-</th>
-                            <td>Marry another player</td>
-                            <td>valentines.marry</td>
-                        </tr>
-                        <tr>
-                            <td>/divorce</td>
-                            <th>-</th>
-                            <td>Divorce your partner</td>
-                            <td>valentines.divorce</td>
-                        </tr>
-                        <tr>
-                            <td>/valtest</td>
-                            <th>-</th>
-                            <td>Auto-Test every part of plugin</td>
-                            <td>CONSOLE</td>
+                            <td>Displays all commands</td>
+                            <td>-</td>
                         </tr>
                     </tbody>
                 </table>
@@ -257,18 +219,16 @@
                 <p>This plugin uses few permissions to control acces to commands and features:
                 </p>
                 
-                <h3>Permission Groups</h3>
+                <h3>Permission Groups:</h3>
                 <ul>
-                    <li><code>valentines.use</code> - Allows to use default commands</li>
-                    <li><code>valentines.marry</code> - Allows to marry someone</li>
-                    <li><code>valentines.divorce</code> - Allows divorce with partner</li>
-                    <li><code>CONSOLE</code> - Allows using command only in console</li>
+                    <li><code>mobstatus.admin </code> - Allows to use all commands</li>
+                    <li><code>mobstatus.stats</code> - Allows opening GUI</li>
                 </ul>
             </section>
             
             <section class="docs-section" id="config">
                 <h2>Configuration</h2>
-                <p>Every part of Valentines plugin is customizable in <code>config.yml</code> file.</p>
+                <p>A lot of things in this plugin are customizable in <code>config.yml</code> file.</p>
                 
                 <h3>Main Configuration (config.yml)</h3>
                 <div class="config-example">
@@ -278,110 +238,328 @@
                             <button class="copy-button">Copy</button>
                         </div>
                         <div class="plugin-file-content">
-                            <pre><code>lang: "EN"
-
-# Messages
-Prefix: "&c❤&f&lValentines&c❤&r "
-NoPermissionMessage: "&cYou do not have permission to use this command."
-reload-success: "&aPlugin reloaded successfully!"
-reload-error: "&cError reloading plugin: {error}"
-
-
-Hug: "&fYou hugged &d{player} ❤"
-HugReceived: "&d{player} &fhugged you&d! ❤"
-Kiss: "&fYou kissed &d{player} ❤"
-KissReceived: "&d{player} &fkissed you&d! ❤"
-Like: "&fYou liked &d{player} ❤"
-LikeReceived: "&d{player} &fliked you&d! ❤"
-
-Marriage:
-  proposal-sent: "&fMarriage proposal sent to &d{player}"
-  proposal-received: "&d{player} &fwants to marry you. Type &d/marry confirm &ffor confirmation."
-
-  already-married: "&cYou are already married!"
-  target-already-married: "&c{player} is already married!"
-
-  no-pending-proposals: "&cYou have no pending marriage proposals!"
-  proposer-offline: "&cThe player who proposed is no longer online!"
-
-  accept-sender: "&d{player} &faccepted your marriage. You're together&d! ♥"
-  accept-receiver: "You married &d{player} &fYou're together&d! ♥"
-  decline-sender: "&c{player} doesn't want to be with you :("
-  decline-receiver: "&cYou don't want to be with {player}"
-
-  divorce-initiator: "&cYou have divorced {player}!"
-  divorce-target: "&c{player} has divorced you!"
-  divorce-confirm: "&fAre you sure you want to break up with &d{player}&f? Type &d/divorce &fagain to confirm."
-
-  not-married: "&cYou are not married!"
-  not-married-to: "&cYou are not married to {player}!"
-
-  # Marriage prefix settings
-  prefix:
-    enabled: true
-    position: "after"  # symbol "after" or "before" player's name
-    symbol: "❤"
-    color: "&c"
-    tooltip: "&dMarried to &f{partner}"
-    spacing: " "  # Space between name and symbol
-
-cooldown-message: "&cYou can only {command} once every &d{time}&c seconds!"
-
-# Chat Replacement
-symbol-change: true
-symbol-color: "&c"
-symbol: "♥"
-words:
-  - "love"
-  - "valentines"
-  - "heart"
-
-# Effects
-effects:
-  enabled: true
-  active-effect: "effect1"  # effect1/effect2/effect3
-  effect1:
-    particle-density: 1
-    update-rate: 2
-    max-height: 2.0
-    start-height: 0.1
-    radius: 0.85
-  effect2:
-    particle-density: 2
-    update-rate: 1
-    max-height: 2.0
-    start-height: 0.5
-    radius: 1.2
-  effect3:
-    particle-density: 3
-    update-rate: 2
-    max-height: 3.0
-    start-height: 2.0
-    radius: 1.5
-
-enabled-worlds:
-  - world
-  - world_nether
-
-# Cooldowns (seconds)
-cooldowns:
-  hug: 60
-  kiss: 60
-  like: 60
-
-# Thank you for using Valentines plugin by SoneMC. If you have any more questions, please
-# visit https://sonemc.pages.dev</code></pre>
+                            <pre><code># World Configuration
+ worlds:
+ # List of worlds where the plugin is enabled
+ # Use * to enable in all worlds
+ enabled-worlds:
+ - "*"
+ 
+ # Health Bar Configuration
+ health-bar:
+ # Character to use for health bar
+ character: "■"
+ 
+ # Characters for empty health bar
+ empty-character: "■"
+ 
+ # Health bar style: "standard", "gradient", or "segmented"
+ style: "gradient"
+ 
+ # Health bar length (number of characters)
+ length: 10
+ 
+ # Show borders around health bar
+ show-borders: true
+ 
+ # Border characters
+ prefix: "&8["
+ suffix: "&8]"
+ 
+ # Show entity info line (health percentage, name, etc.)
+ show-info: true
+ 
+ # Show entity level
+ show-level: true
+ 
+ # Colors for different health percentages
+ colors:
+ 100-81: "&2" # Green (Full/High health)
+ 80-61: "&a" # Light Green (High health)
+ 60-51: "&e" # Yellow (Medium health)
+ 50-41: "&6" # Gold (Medium health)
+ 40-31: "&c" # Red (Medium-low health)
+ 30-21: "&c" # Red (Low health)
+ 20-11: "&4" # Dark Red (Low health)
+ 10-1: "&4" # Dark Red (Very low health)
+ 0: "&0" # Black (Dead)
+ 
+ # Color for empty health bar
+ empty-color: "&8" # Dark Gray
+ 
+ # Damage Indicators
+ damage-indicators:
+ # Enable floating damage numbers and types
+ enabled: true
+ 
+ # Duration in ticks (20 ticks = 1 second)
+ duration: 60
+ 
+ # Effect Particles Configuration
+ effects:
+ # Default duration for effects
+ default-duration: 30
+ 
+ # Healing effect
+ healing:
+ enabled: true
+ particle-count: 8
+ duration: 30
+ 
+ # Critical hit effect
+ critical-hit:
+ enabled: true
+ particle-count: 12
+ duration: 30
+ 
+ # Normal hit effect
+ normal-hit:
+ enabled: true
+ particle-count: 6
+ duration: 20
+ 
+ # Poison effect
+ poison:
+ enabled: true
+ particle-count: 8
+ duration: 40
+ 
+ # Fire effect
+ fire:
+ enabled: true
+ particle-count: 10
+ duration: 30
+ 
+ # Status effects (slow, etc.)
+ status:
+ enabled: true
+ duration: 30
+ 
+ # Death effects
+ death:
+ enabled: true
+ duration: 40
+ 
+ # Display Options
+ display:
+ # Duration of effect particles in ticks (20 ticks = 1 second)
+ particle-duration: 30
+ 
+ # Update frequency for health bars in ticks
+ update-frequency: 2
+ 
+ # Distance at which health bars become visible
+ visibility-range: 24
+ 
+ # Offset above mob's head
+ height-offset: 0.5
+ 
+ # Mob Tier System
+ tiers:
+ COMMON:
+ display-name: "Common"
+ color: "&7"
+ health-multiplier: 1.0
+ damage-multiplier: 1.0
+ drop-multiplier: 1.0
+ 
+ UNCOMMON:
+ display-name: "Uncommon"
+ color: "&a"
+ health-multiplier: 1.5
+ damage-multiplier: 1.2
+ drop-multiplier: 1.5
+ 
+ RARE:
+ display-name: "Rare"
+ color: "&b"
+ health-multiplier: 2.0
+ damage-multiplier: 1.5
+ drop-multiplier: 2.0
+ 
+ EPIC:
+ display-name: "Epic"
+ color: "&d"
+ health-multiplier: 3.0
+ damage-multiplier: 2.0
+ drop-multiplier: 3.0
+ 
+ LEGENDARY:
+ display-name: "Legendary"
+ color: "&6"
+ health-multiplier: 5.0
+ damage-multiplier: 3.0
+ drop-multiplier: 5.0
+ 
+ # Tier spawn chances for different entity types
+ tier-chances:
+ ZOMBIE:
+ COMMON: 70.0
+ UNCOMMON: 20.0
+ RARE: 7.0
+ EPIC: 2.5
+ LEGENDARY: 0.5
+ 
+ SKELETON:
+ COMMON: 70.0
+ UNCOMMON: 20.0
+ RARE: 7.0
+ EPIC: 2.5
+ LEGENDARY: 0.5
+ 
+ CREEPER:
+ COMMON: 65.0
+ UNCOMMON: 25.0
+ RARE: 7.0
+ EPIC: 2.5
+ LEGENDARY: 0.5
+ 
+ ENDERMAN:
+ COMMON: 50.0
+ UNCOMMON: 30.0
+ RARE: 15.0
+ EPIC: 4.0
+ LEGENDARY: 1.0
+ 
+ WITCH:
+ COMMON: 40.0
+ UNCOMMON: 35.0
+ RARE: 15.0
+ EPIC: 8.0
+ LEGENDARY: 2.0
+ 
+ ENDER_DRAGON:
+ LEGENDARY: 100.0
+ 
+ WITHER:
+ LEGENDARY: 100.0
+ 
+ WARDEN:
+ LEGENDARY: 100.0
+ 
+ # Custom loot tables for mobs
+ loot:
+ # Tier-specific loot
+ tiers:
+ UNCOMMON:
+ nugget:
+ material: GOLD_NUGGET
+ chance: 0.3
+ min-amount: 1
+ max-amount: 3
+ name: "&6Golden Nugget"
+ lore:
+ - "&7A shiny nugget of gold"
+ 
+ RARE:
+ gold:
+ material: GOLD_INGOT
+ chance: 0.3
+ min-amount: 1
+ max-amount: 2
+ name: "&6Gold Ingot"
+ lore:
+ - "&7A bar of pure gold"
+ 
+ emerald:
+ material: EMERALD
+ chance: 0.2
+ min-amount: 1
+ max-amount: 1
+ name: "&aEmerald"
+ lore:
+ - "&7A precious gemstone"
+ 
+ EPIC:
+ diamond:
+ material: DIAMOND
+ chance: 0.3
+ min-amount: 1
+ max-amount: 2
+ name: "&bDiamond"
+ lore:
+ - "&7A rare and valuable gem"
+ 
+ emeralds:
+ material: EMERALD
+ chance: 0.4
+ min-amount: 1
+ max-amount: 3
+ name: "&aEmerald"
+ lore:
+ - "&7A precious gemstone"
+ 
+ LEGENDARY:
+ nether_star:
+ material: NETHER_STAR
+ chance: 0.1
+ min-amount: 1
+ max-amount: 1
+ name: "&f✦ Nether Star ✦"
+ lore:
+ - "&7A powerful artifact"
+ - "&7of immense value"
+ 
+ diamonds:
+ material: DIAMOND
+ chance: 0.5
+ min-amount: 2
+ max-amount: 5
+ name: "&b✦ Diamond ✦"
+ lore:
+ - "&7A rare and valuable gem"
+ 
+ # Entity-specific loot
+ entities:
+ WITHER:
+ wither_heart:
+ material: NETHER_STAR
+ chance: 1.0
+ min-amount: 1
+ max-amount: 1
+ name: "&c❤ &4Wither's Heart &c❤"
+ lore:
+ - "&7The beating heart of the Wither"
+ - "&7Extremely rare and powerful"
+ - ""
+ - "&4&lLEGENDARY ITEM"
+ 
+ ENDER_DRAGON:
+ dragon_scale:
+ material: DRAGON_BREATH
+ chance: 1.0
+ min-amount: 1
+ max-amount: 3
+ name: "&5✦ Dragon Scale ✦"
+ lore:
+ - "&7A scale from the Ender Dragon"
+ - "&7Radiates ancient power"
+ - ""
+ - "&5&lMYTHICAL ITEM"
+ 
+ WARDEN:
+ warden_heart:
+ material: SCULK_CATALYST
+ chance: 1.0
+ min-amount: 1
+ max-amount: 1
+ name: "&3♦ Warden's Core ♦"
+ lore:
+ - "&7The pulsing core of a Warden"
+ - "&7Thrums with deep magic"
+ - ""
+ - "&3&lANCIENT ITEM"</code></pre>
                         </div>
                     </div>
                 </div>
             </section>
             
             <div class="docs-nav">
-                <a href="../mobstatus/index.html" class="docs-nav-prev">
-                    <i class="fas fa-chevron-left"></i> Back to MobStatus
+                <a href="../../index.html" class="docs-nav-prev">
+                    <i class="fas fa-chevron-left"></i> Back to Valentines2
                 </a>
-                <a href="../harvesting/index.html" class="docs-nav-next">
-                    Next: Mobstatus <i class="fas fa-chevron-right"></i>
+                <a href="../valentines/index.html" class="docs-nav-next">
+                    Next: Valentines <i class="fas fa-chevron-right"></i>
                 </a>
             </div>
         </main>
