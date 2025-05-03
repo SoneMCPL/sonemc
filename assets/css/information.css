@@ -98,7 +98,7 @@
     color: white;
 }
 
-.status-card.unactive::before {
+.status-card.inactive::before {
     background: linear-gradient(135deg, #9E9E9E, #B0BEC5);
     color: white;
 }
@@ -134,7 +134,7 @@
     color: white;
 }
 
-.status-card.unactive .status-icon {
+.status-card.inactive .status-icon {
     background: linear-gradient(135deg, #9E9E9E, #B0BEC5);
     color: white;
 }
