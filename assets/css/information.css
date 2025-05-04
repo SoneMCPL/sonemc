@@ -308,6 +308,10 @@
     background: linear-gradient(to right, #9C27B0, #673AB7);
 }
 
+.roadmap-item.ended::before {
+    background: linear-gradient(to right, #F44336, #D32F2F);
+}
+
 .roadmap-item.in-progress::before {
     background: linear-gradient(to right, #2196F3, #03A9F4);
 }
