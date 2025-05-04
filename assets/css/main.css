@@ -216,6 +216,35 @@
 
 /* Tags */
 
+/* Info-Card */
+.info-card {
+    background-color: var(--dark-alt);
+    color: var(--light);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition-normal);
+    border-left: 5px solid var(--primary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.info-card h3 {
+    color: var(--primary-light);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+}
+
+.info-card p {
+    color: var(--gray-light);
+    margin-bottom: var(--spacing-sm);
+}
+
+.info-card strong {
+    color: var(--primary);
+}
+
+/* Info-Card */
+
 .project-body {
     padding: var(--spacing-md);
     flex-grow: 1;
